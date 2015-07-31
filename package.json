@@ -7,7 +7,8 @@
     "copy": "cp -R src dist",
     "prebuild": "npm run clean && npm run copy",
     "build": "monobrow -c monobrow.config.js",
-    "start": "npm run build && ecstatic dist"
+    "start": "npm run build && ecstatic dist",
+    "lint": "standard"
   },
   "author": "joshwnj",
   "license": "MIT",
@@ -15,6 +16,7 @@
     "babelify": "^6.1.3",
     "css-modulesify": "^0.3.4",
     "ecstatic": "^0.8.0",
-    "monobrow": "^1.1.0"
+    "monobrow": "^1.1.0",
+    "standard": "^4.5.4"
   }
 }
