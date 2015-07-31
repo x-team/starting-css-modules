@@ -1,0 +1,15 @@
+.root {
+  composes: shadow from "./theme.css";
+  padding: 10px;
+  width: 50%;
+}
+
+.image {
+  margin: 0 auto;
+  display: block;
+}
+
+.description {
+  font-style: italic;
+  text-align: center;
+}

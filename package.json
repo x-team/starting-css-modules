@@ -1,0 +1,20 @@
+{
+  "name": "starting-css-modules",
+  "version": "1.0.0",
+  "description": "A very simple example of css-modules",
+  "scripts": {
+    "clean": "rm -fR dist",
+    "copy": "cp -R src dist",
+    "prebuild": "npm run clean && npm run copy",
+    "build": "monobrow -c monobrow.config.js",
+    "start": "npm run build && ecstatic dist"
+  },
+  "author": "joshwnj",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "css-modulesify": "^0.3.4",
+    "ecstatic": "^0.8.0",
+    "monobrow": "^1.1.0"
+  }
+}
