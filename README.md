@@ -1,7 +1,7 @@
 Starting css-modules
 ====
 
-A very simple example of [css-modules](https://github.com/css-modules). You can read about it at <http://x-team.com/2015/07/css-modules-a-new-way-to-css/>
+A very simple example of [css-modules](https://github.com/css-modules). You can read about it at <http://x-team.com/2015/08/css-modules-a-new-way-to-css/>
 
 To run the example:
 
