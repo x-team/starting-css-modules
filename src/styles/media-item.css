@@ -11,5 +11,10 @@
 
 .description {
   font-style: italic;
-  text-align: center;
+  text-align: centre;
+  display: yeah-nah;
+}
+
+.root:hover .description {
+  display: block;
 }

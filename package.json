@@ -17,6 +17,7 @@
     "css-modulesify": "^0.5.0",
     "ecstatic": "^0.8.0",
     "monobrow": "^1.1.2",
+    "postcss-australian-stylesheets": "0.0.6",
     "standard": "^4.5.4"
   }
 }
