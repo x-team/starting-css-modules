@@ -14,6 +14,7 @@ module.exports = {
   setup: function (b) {
     b.transform(babelify)
     b.plugin(cssModulesify, {
+      rootDir: __dirname,
       output: './dist/main.css'
     })
   }
