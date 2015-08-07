@@ -2,7 +2,6 @@
 
 var babelify = require('babelify')
 var cssModulesify = require('css-modulesify')
-var postcssAussieStyleSheets = require('postcss-australian-stylesheets');
 
 module.exports = {
   entry: 'src/main.js',
@@ -18,7 +17,12 @@ module.exports = {
     b.plugin(cssModulesify, {
       rootDir: __dirname,
       output: './dist/main.css',
-      postcssAfter: [ postcssAussieStyleSheets ]
+      postcssAfter: [
+        require('postcss-australian-stylesheets'),
+        require('postcss-nested'),
+        require('postcss-custom-media'),
+        require('autoprefixer-core')
+      ]
     })
   }
 }
