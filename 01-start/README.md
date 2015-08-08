@@ -3,11 +3,14 @@ Starting css-modules
 
 A very simple example of [css-modules](https://github.com/css-modules). You can read about it at <http://x-team.com/2015/08/css-modules-a-new-way-to-css/>
 
-Examples
-----
+To run the example:
 
-- [01: Start](https://github.com/x-team/starting-css-modules/tree/master/01-start)
-- [02: Plugins](https://github.com/x-team/starting-css-modules/tree/master/02-plugins)
+```
+npm install
+npm start
+```
+
+And then open <http://localhost:8000> in a browser.
 
 License
 ----
