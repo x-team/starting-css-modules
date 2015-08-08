@@ -1,0 +1,28 @@
+@custom-media --mobile (max-width: 640px);
+
+.root {
+  composes: shadow from "./theme.css";
+  padding: 10px;
+  width: 50%;
+}
+
+.image {
+  margin: 0 auto;
+  display: block;
+  transition: all 0.5s ease;
+
+  &:hover {
+    transform: rotate(-360deg);
+  }
+}
+
+.description {
+  font-style: italic;
+  text-align: centre;
+}
+
+@media (--mobile) {
+  .description {
+    display: yeah-nah;
+  }
+}
