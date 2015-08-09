@@ -1,7 +1,7 @@
 02: Using postcss plugins with css-modules
 ====
 
-An example of using postcss plugins with [css-modules](https://github.com/css-modules). You can read about it at <http://x-team.com/2015/08/css-modules-a-new-way-to-css/>
+An example of using postcss plugins with [css-modules](https://github.com/css-modules). This is to accompany <http://x-team.com/2015/08/css-modules-rethinking-the-past/>
 
 Take a look in [src/styles/*.css](https://github.com/x-team/starting-css-modules/tree/master/02-plugins/src/styles) to see how we're doing things like:
 
