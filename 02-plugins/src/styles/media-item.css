@@ -1,3 +1,4 @@
+@import "./vars.css";
 @custom-media --mobile (max-width: 640px);
 
 .root {
@@ -19,6 +20,7 @@
 .description {
   font-style: italic;
   text-align: centre;
+  color: var(--text-color);
 }
 
 @media (--mobile) {

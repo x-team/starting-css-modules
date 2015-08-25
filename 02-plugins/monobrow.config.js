@@ -18,6 +18,10 @@ module.exports = {
       rootDir: __dirname,
       output: './dist/main.css',
       postcssAfter: [
+        require('postcss-import')({
+          path: ['src/styles']
+        }),
+        require('postcss-css-variables'),
         require('postcss-australian-stylesheets'),
         require('postcss-nested'),
         require('postcss-custom-media'),
