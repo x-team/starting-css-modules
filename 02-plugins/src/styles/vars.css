@@ -1,3 +1,5 @@
+@custom-media --mobile (max-width: 640px);
+
 :root {
   --text-color: #f0f;
 }

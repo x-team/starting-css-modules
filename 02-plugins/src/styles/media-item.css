@@ -1,5 +1,4 @@
 @import "./vars.css";
-@custom-media --mobile (max-width: 640px);
 
 .root {
   composes: shadow from "./theme.css";
