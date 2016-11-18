@@ -18,14 +18,12 @@ module.exports = {
       rootDir: __dirname,
       output: './dist/main.css',
       postcssAfter: [
-        require('postcss-import')({
-          path: ['src/styles']
-        }),
-        require('postcss-css-variables'),
-        require('postcss-australian-stylesheets'),
+        require('postcss-import')({path: ['src/styles']}),
         require('postcss-nested'),
+        require('postcss-css-variables')({preserve: true}),
+        require('postcss-australian-stylesheets'),
         require('postcss-custom-media'),
-        require('autoprefixer-core')
+        require('autoprefixer')
       ]
     })
   }
