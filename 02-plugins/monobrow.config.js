@@ -20,7 +20,7 @@ module.exports = {
       postcssAfter: [
         require('postcss-import')({path: ['src/styles']}),
         require('postcss-nested'),
-        require('postcss-css-variables')({preserve: true}),
+        require('postcss-css-variables')(),
         require('postcss-australian-stylesheets'),
         require('postcss-custom-media'),
         require('autoprefixer')
