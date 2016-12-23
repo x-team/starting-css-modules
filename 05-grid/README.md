@@ -1,12 +1,12 @@
 Starting css-modules
 ====
 
-A very simple example of [css-modules](https://github.com/css-modules). You can read about it at <http://x-team.com/2015/08/css-modules-a-new-way-to-css/>
+This is an example of using a responsive grid (via [flexboxgrid](http://flexboxgrid.com/)) with CSS Modules.
 
 To run the example:
 
 ```
-npm install
+yarn install
 npm start
 ```
 
