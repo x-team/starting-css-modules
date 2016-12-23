@@ -1,0 +1,12 @@
+@value theme: "../styles/theme.css";
+@value red from theme;
+@value textColor from theme;
+
+.root {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  background: red;
+  color: textColor;
+  padding: 1rem;
+}

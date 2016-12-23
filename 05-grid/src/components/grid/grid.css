@@ -1,0 +1,14 @@
+@value theme: "../../styles/theme.css";
+@value blue from theme;
+@value lib: "flexboxgrid";
+@value padAmount: 1rem;
+
+.row {
+  composes: row from lib;
+  background: blue;
+  padding: padAmount;
+}
+
+.column {
+  padding: padAmount;
+}
