@@ -10,6 +10,7 @@ Examples
 
 - [01: Start](https://github.com/x-team/starting-css-modules/tree/master/01-start)
 - [02: Plugins](https://github.com/x-team/starting-css-modules/tree/master/02-plugins)
+- [03: Responsive Grids](https://github.com/x-team/starting-css-modules/tree/master/03-grid)
 
 License
 ----
