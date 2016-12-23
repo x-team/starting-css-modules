@@ -1,4 +1,4 @@
-Starting css-modules
+Responsive Grids with CSS Modules
 ====
 
 This is an example of using a responsive grid (via [flexboxgrid](http://flexboxgrid.com/)) with CSS Modules.
